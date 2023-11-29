@@ -204,39 +204,41 @@ if ($currentLanguage === "en") {
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
+          <p>Explore our comprehensive services, from meticulous building cleaning and professional janitorial solutions to
+            <br> enchanting gardening, agriculture, and captivating landscaping.
+          </p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"><i class='bx bx-building-house'></i></div>
+              <h4 class="title">Buildings Cleaning</h4>
+              <p class="description">Transform your spaces with our meticulous building cleaning services, ensuring pristine interiors that leave a lasting impression.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><i class='bx bx-check-shield'></i></div>
+              <h4 class="title">Janitor service</h4>
+              <p class="description">Let our professional janitorial team handle the dirty work, maintaining order and cleanliness to create a welcoming and organized environment.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><i class='bx bx-leaf'></i></div>
+              <h4 class="title">Gardening and agriculture</h4>
+              <p class="description">Elevate your outdoor spaces with our enchanting gardening and agriculture services, fostering vibrant landscapes and sustainable greenery.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <div class="icon"><i class='bx bxs-tree'></i></div>
+              <h4 class="title">Landscaping</h4>
+              <p class="description">Redefine your surroundings with our captivating landscaping solutions, turning ideas into visually stunning outdoor spaces that enhance your property's appeal.</p>
             </div>
           </div>
 
@@ -251,39 +253,35 @@ if ($currentLanguage === "en") {
 
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
+            <div class="card" style='background-image: url("assets/img/services/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Lobira Duno</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <h5 class="card-title"><a href="">Buildings Cleaning</a></h5>
+                <p class="card-text">Revitalize your space with our expert building cleaning services. Impeccable cleanliness meets attention to detail, ensuring every nook and cranny is spotless. Elevate your environment and make a lasting impression with our thorough and efficient cleaning solutions.</p>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card" style='background-image: url("assets/img/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
+            <div class="card" style='background-image: url("assets/img/services/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Limere Radses</a></h5>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <h5 class="card-title"><a href="">Janitor service</a></h5>
+                <p class="card-text">Experience cleanliness without the hassle with our top-notch janitorial services. Our dedicated team takes care of the dirty work, leaving your space organized and welcoming. From daily maintenance to special tasks, we're committed to creating a pristine atmosphere tailored to your needs.</p>
               </div>
             </div>
 
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="100">
+            <div class="card" style='background-image: url("assets/img/services/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Nive Lodo</a></h5>
-                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <h5 class="card-title"><a href="">Gardening and agriculture</a></h5>
+                <p class="card-text">Transform your outdoor oasis with our enchanting gardening and agriculture services. Our green thumbs bring life to your landscape, from vibrant flowerbeds to thriving crops. Let us cultivate beauty and sustainability, turning your outdoor space into a flourishing haven.</p>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/more-services-4.jpg");' data-aos="fade-up" data-aos-delay="200">
+            <div class="card" style='background-image: url("assets/img/services/more-services-4.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Pale Treda</a></h5>
-                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <h5 class="card-title"><a href="">Landscaping</a></h5>
+                <p class="card-text">Redefine your surroundings with our captivating landscaping services. Our skilled team turns dreams into reality, creating visually stunning landscapes that leave a lasting impression. From artistic design to expert implementation, we're dedicated to enhancing the natural beauty of your property.</p>
               </div>
             </div>
           </div>
