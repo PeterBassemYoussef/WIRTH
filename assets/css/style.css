@@ -341,6 +341,19 @@ h6 {
   display: block;
 }
 
+#lang-btn {
+  background: #03024c;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: #fff;
+  border: 0px;
+}
+
+#lang-btn:hover {
+  color: #fff;
+  background: #4aa3df;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -406,7 +419,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -427,13 +440,13 @@ h6 {
   }
 
   #hero .hero-img img {
-    width: 70%;
+    width: 100%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -494,48 +507,21 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  background: #f3f9fd;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.clients .col-lg-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.clients img {
-  width: 50%;
-  filter: grayscale(100);
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 10px 0;
-}
-
-.clients img:hover {
-  filter: none;
-  transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-  .clients img {
-    width: 40%;
-  }
-}
-
-@media (max-width: 575px) {
-  .clients img {
-    width: 30%;
-  }
-}
-
-/*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {
+  background: #0000cc08;
+}
+
+.about .about-image-cont {
+  text-align: left;
+}
+
+.about .about-image-cont .about-image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -590,11 +576,21 @@ section {
   text-decoration: none;
 }
 
+.about .portfolio-details-slider {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about .portfolio-details-slider img {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
   padding-top: 0;
+  background-color: #0000cc08;
 }
 
 .counts .content {

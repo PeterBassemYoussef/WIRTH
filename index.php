@@ -66,7 +66,7 @@ if ($currentLanguage === "en") {
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -85,12 +85,14 @@ if ($currentLanguage === "en") {
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+
+      <button id="lang-btn" type="button" class="getstarted" onclick="changeLanguage()"><?php echo $buttonText; ?></button>
 
     </div>
   </header><!-- End Header -->
@@ -101,8 +103,8 @@ if ($currentLanguage === "en") {
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Grow your business with WIRTH</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <h1 data-aos="fade-up">Welcome To WIRTH</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">We Are Your Trusted Partner in Comprehensive Property Care.</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
@@ -117,41 +119,6 @@ if ($currentLanguage === "en") {
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients clients">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -162,79 +129,74 @@ if ($currentLanguage === "en") {
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="about-image-cont" data-aos="fade-up" data-aos-delay="50">
+              <img class="about-image" src="assets/img/logo.png" alt="WIRTH Logo">
+            </div>
+
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              where excellence meets every aspect of property care. As a leading provider of services, we specialize in building cleaning, janitorial services, gardening and agriculture, and landscaping. Our commitment to quality and customer satisfaction sets us apart as your reliable partner in maintaining the beauty and functionality of your spaces.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> At WHIRTH, we understand the importance of a clean and well-maintained environment.</li>
+              <li><i class="ri-check-double-line"></i> Our dedicated team of professionals is trained to deliver top-notch building cleaning services, ensuring that your spaces are not only pristine but also conducive to a healthy and comfortable atmosphere.</li>
+              <li><i class="ri-check-double-line"></i> Our janitorial services are designed to cater to the unique needs of various facilities.</li>
+              <li><i class="ri-check-double-line"></i> From offices to commercial spaces, we take pride in our attention to detail, providing a range of services to keep your surroundings in impeccable condition.</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/about/about-1.webp" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/about/about-2.webp" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/about/about-3.webp" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/about/about-4.webp" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/about/about-5.webp" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+
+            </div>
+
+            <br>
+
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              When it comes to gardening and agriculture, WHIRTH excels in creating vibrant and sustainable outdoor spaces. Whether you have a small garden or extensive grounds, our experienced team is equipped to handle all aspects of gardening, ensuring lush landscapes that enhance the aesthetic appeal of your property.
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            <p>
+              Transform your outdoor areas with our expert landscaping services. WHIRTH combines creativity and expertise to design and implement landscaping solutions that elevate the visual appeal of your property. From concept to execution, we work closely with you to bring your vision to life.
+            </p>
+
+          </div>
+
+          <div class="col-lg-12 pt-4 text-center" data-aos="fade-up" data-aos-delay="350">
+            <p>
+              <span class="fw-bold">WHIRTH is more than just a service provider,</span><br />
+              We are your partner in preserving and enhancing the value of your property. <br />
+              Explore the difference that our comprehensive property care services can make.<br />
+              Choose WHIRTH for excellence, reliability, and a commitment to exceeding your expectations.
+            </p>
+
+            <a href="#services" class="btn-learn-more scrollto">Learn More</a>
           </div>
         </div>
 
       </div>
     </section><!-- End About Us Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -330,8 +292,59 @@ if ($currentLanguage === "en") {
       </div>
     </section><!-- End More Services Section -->
 
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <!-- <section id="features" class="features">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -415,10 +428,11 @@ if ($currentLanguage === "en") {
         </div>
 
       </div>
-    </section><!-- End Features Section -->
+    </section> -->
+    <!-- End Features Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!-- <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -442,7 +456,8 @@ if ($currentLanguage === "en") {
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+            <!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -457,7 +472,8 @@ if ($currentLanguage === "en") {
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+            <!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -472,7 +488,8 @@ if ($currentLanguage === "en") {
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+            <!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -487,7 +504,8 @@ if ($currentLanguage === "en") {
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+            <!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -502,17 +520,19 @@ if ($currentLanguage === "en") {
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+            <!-- End testimonial item --
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>-->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -662,10 +682,11 @@ if ($currentLanguage === "en") {
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section> -->
+    <!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <!-- <section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -750,10 +771,11 @@ if ($currentLanguage === "en") {
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    <!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
@@ -817,10 +839,11 @@ if ($currentLanguage === "en") {
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!-- <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -837,7 +860,8 @@ if ($currentLanguage === "en") {
               Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
+        <!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-5">
@@ -849,7 +873,8 @@ if ($currentLanguage === "en") {
               Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
+        <!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-5">
@@ -861,7 +886,8 @@ if ($currentLanguage === "en") {
               Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
+        <!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-5">
@@ -873,7 +899,8 @@ if ($currentLanguage === "en") {
               Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
+        <!-- End F.A.Q Item--
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
           <div class="col-lg-5">
@@ -885,10 +912,12 @@ if ($currentLanguage === "en") {
               Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
+        <!-- End F.A.Q Item--
 
       </div>
-    </section><!-- End F.A.Q Section -->
+    </section> -->
+    <!-- End F.A.Q Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -979,8 +1008,8 @@ if ($currentLanguage === "en") {
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
             <a href="#intro" class="scrollto">Home</a>
             <a href="#about" class="scrollto">About</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
+            <a href="#services" class="scrollto">Services</a>
+            <a href="#contact" class="scrollto">Contact</a>
           </nav>
         </div>
       </div>

@@ -253,16 +253,16 @@
    */
   new PureCounter();
 
-  function changeLanguage() {
-    // Check the current language and switch to the other one
-    if (window.location.search.includes("?lang=en")) {
-      window.location.search = window.location.search.replace('?lang=en', '?lang=de');
-    } else if (window.location.search.includes("?lang=de")) {
-      window.location.search = window.location.search.replace('?lang=de', '?lang=en');
-    } else {
-      // Default to 'en' if no language found
-      window.location.search = '?lang=en';
-    }
-  }
-
 })()
+
+function changeLanguage() {
+  // Check the current language and switch to the other one
+  if (window.location.search.includes("?lang=en")) {
+    window.location.search = window.location.search.replace('?lang=en', '?lang=de');
+  } else if (window.location.search.includes("?lang=de")) {
+    window.location.search = window.location.search.replace('?lang=de', '?lang=en');
+  } else {
+    // Default to 'de' if no language found
+    window.location.search = '?lang=de';
+  }
+}
