@@ -306,7 +306,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                    <p><strong>Happy Clients</strong></p>
+                    <p>Our success is measured by the satisfaction of our happy clients who experience the transformative results of our building cleaning, janitorial service, gardening, and landscaping expertise.</p>
                   </div>
                 </div>
 
@@ -314,7 +315,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-journal-richtext"></i>
                     <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                    <p><strong>Projects</strong></p>
+                    <p>Discover the diversity of our projects, showcasing our proficiency in building cleaning, janitorial services, gardening, and landscaping. Each project reflects our commitment to excellence and attention to detail.</p>
                   </div>
                 </div>
 
@@ -322,7 +324,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
                     <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                    <p><strong>Years of experience</strong></p>
+                    <p>Benefit from our extensive years of experience in the industry, where our seasoned professionals bring unparalleled expertise to every aspect of building cleaning, janitorial services, gardening, and landscaping.</p>
                   </div>
                 </div>
 
@@ -330,7 +333,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-award"></i>
                     <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                    <p><strong>Awards</strong></p>
+                    <p>Our dedication to quality has earned us recognition and prestigious awards in the field. Trust our award-winning team to deliver excellence in building cleaning, janitorial services, gardening, and landscaping.</p>
                   </div>
                 </div>
               </div>
