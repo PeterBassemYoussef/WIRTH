@@ -921,6 +921,12 @@ if ($currentLanguage === "en") {
     </section> -->
     <!-- End F.A.Q Section -->
 
+    <div id="map" class="map">
+      <div class="container-fluid">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.499513466028!2d8.5373596!3d49.456175699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c8cc93837dbb%3A0x17f304fe82f14acd!2sKieselgrund%2014%2C%2068239%20Mannheim%2C%20Germany!5e0!3m2!1sen!2seg!4v1701283368740!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -934,13 +940,18 @@ if ($currentLanguage === "en") {
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
               <h3>WIRTH</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <p><strong>Ready to elevate your surroundings?</strong></p>
+              <p>Reach out to us for unparalleled services in building cleaning, janitorial expertise, enchanting gardening and agriculture solutions, and transformative landscaping.</p>
+              <p>Our dedicated team is here to answer your queries, discuss your unique needs, and start the journey towards a cleaner, greener, and more beautiful space.</p>
+              <p><i>Connect with us today and let's bring your vision to life!</i></p>
+
               <div class="social-links">
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
                 <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
               </div>
+
             </div>
           </div>
 
@@ -948,17 +959,22 @@ if ($currentLanguage === "en") {
             <div class="info">
               <div>
                 <i class="ri-map-pin-line"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>kieselgrund 14,<br>68239 Mannheim, Germany</p>
               </div>
 
               <div>
                 <i class="ri-mail-send-line"></i>
-                <p>info@example.com</p>
+                <p><a href="mailto:wirth.kundenservice@hotmail.com">wirth.kundenservice@hotmail.com</a></p>
               </div>
 
               <div>
                 <i class="ri-phone-line"></i>
-                <p>+1 5589 55488 55s</p>
+                <p><a href="tel:017672510986">01767 25 10 9 86</a></p>
+              </div>
+
+              <div>
+                <i class="ri-whatsapp-line"></i>
+                <p><a href="https://wa.me/017672510986">01767 25 10 9 86</a></p>
               </div>
 
             </div>
@@ -1002,9 +1018,9 @@ if ($currentLanguage === "en") {
           <div class="copyright">
             &copy; Copyright <strong>WIRTH</strong>. All Rights Reserved
           </div>
-          <div class="credits">
+          <!-- <div class="credits">
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
