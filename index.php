@@ -5,7 +5,7 @@
 if (isset($_GET['lang'])) {
   $currentLanguage = $_GET['lang'] === "de" ? "de" : "en";
 } else {
-  $currentLanguage = 'en'; // Default to english
+  $currentLanguage = 'de'; // Default to de
 }
 
 if ($currentLanguage === "en") {
@@ -933,7 +933,7 @@ if ($currentLanguage === "en") {
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
-              <h3>WIRTH</h3>
+              <img src="assets/img/logo.png" alt="WIRTH logo" style="width: 260px;margin-bottom: 20px;">
               <p><strong><?php echo $translations["contactDesc1"]; ?></strong></p>
               <p><?php echo $translations["contactDesc2"]; ?></p>
               <p><?php echo $translations["contactDesc3"]; ?></p>

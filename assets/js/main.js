@@ -262,7 +262,7 @@ function changeLanguage() {
   } else if (window.location.search.includes("?lang=de")) {
     window.location.search = window.location.search.replace('?lang=de', '?lang=en');
   } else {
-    // Default to 'de' if no language found
-    window.location.search = '?lang=de';
+    // Default to 'en' if no language found
+    window.location.search = '?lang=en';
   }
 }
