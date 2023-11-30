@@ -249,7 +249,7 @@ if ($currentLanguage === "en") {
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card" style='background-image: url("assets/img/services/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["buildingsCleaning"]; ?></a></h5>
+                <h5 class="card-title"><?php echo $translations["buildingsCleaning"]; ?></h5>
                 <p class="card-text"><?php echo $translations["buildingsCleaningLong"]; ?></p>
               </div>
             </div>
@@ -257,7 +257,7 @@ if ($currentLanguage === "en") {
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="card" style='background-image: url("assets/img/services/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["janitorService"]; ?></a></h5>
+                <h5 class="card-title"><?php echo $translations["janitorService"]; ?></h5>
                 <p class="card-text"><?php echo $translations["janitorServiceLong"]; ?></p>
               </div>
             </div>
@@ -266,7 +266,7 @@ if ($currentLanguage === "en") {
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/services/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["gardeningAgriculture"]; ?></a></h5>
+                <h5 class="card-title"><?php echo $translations["gardeningAgriculture"]; ?></h5>
                 <p class="card-text"><?php echo $translations["gardeningAgricultureLong"]; ?></p>
               </div>
             </div>
@@ -274,7 +274,7 @@ if ($currentLanguage === "en") {
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/services/more-services-4.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["landscaping"]; ?></a></h5>
+                <h5 class="card-title"><?php echo $translations["landscaping"]; ?></h5>
                 <p class="card-text"><?php echo $translations["landscapingLong"]; ?></p>
               </div>
             </div>
