@@ -102,6 +102,28 @@ if ($currentLanguage === "en") {
 
     <div class="container">
       <div class="row">
+        <div class="col-lg-6 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <div class="hero-slider swiper animated">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="assets/img/hero-images/hero-img-1.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/hero-images/hero-img-2.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/hero-images/hero-img-3.png" alt="">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+          </div>
+        </div>
+
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up"><?php echo $translations["welcome"]; ?></h1>
           <h2 data-aos="fade-up" data-aos-delay="400"><?php echo $translations["welcomeDesc"]; ?></h2>
@@ -109,9 +131,7 @@ if ($currentLanguage === "en") {
             <a href="#about" class="btn-get-started scrollto"><?php echo $translations["getStarted"]; ?></a>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
+
       </div>
     </div>
 
@@ -144,7 +164,7 @@ if ($currentLanguage === "en") {
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="portfolio-details-slider swiper">
+            <div class="services-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
