@@ -58,14 +58,14 @@ if ($currentLanguage === "en") {
       <div class="logo">
         <!-- <h1><a href="#">WIRTH</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#"><img src="assets/img/logo_NavyBlue.png" alt="" class="img-fluid"></a>
+        <a href="#"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto active" href="#hero"><?php echo $translations["Home"]; ?></a></li>
+          <li><a class="nav-link scrollto" href="#about"><?php echo $translations["About"]; ?></a></li>
+          <li><a class="nav-link scrollto" href="#services"><?php echo $translations["Services"]; ?></a></li>
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
@@ -86,7 +86,7 @@ if ($currentLanguage === "en") {
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact"><?php echo $translations["Contact"]; ?></a></li>
           <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -103,10 +103,10 @@ if ($currentLanguage === "en") {
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Welcome To WIRTH</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We Are Your Trusted Partner in Comprehensive Property Care.</h2>
+          <h1 data-aos="fade-up"><?php echo $translations["welcome"]; ?></h1>
+          <h2 data-aos="fade-up" data-aos-delay="400"><?php echo $translations["welcomeDesc"]; ?></h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" class="btn-get-started scrollto"><?php echo $translations["getStarted"]; ?></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -124,7 +124,7 @@ if ($currentLanguage === "en") {
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>About Us</h2>
+          <h2><?php echo $translations["About"]; ?></h2>
         </div>
 
         <div class="row content">
@@ -134,13 +134,13 @@ if ($currentLanguage === "en") {
             </div>
 
             <p>
-              where excellence meets every aspect of property care. As a leading provider of services, we specialize in building cleaning, janitorial services, gardening and agriculture, and landscaping. Our commitment to quality and customer satisfaction sets us apart as your reliable partner in maintaining the beauty and functionality of your spaces.
+              <?php echo $translations["aboutDesc1"]; ?>
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> At WHIRTH, we understand the importance of a clean and well-maintained environment.</li>
-              <li><i class="ri-check-double-line"></i> Our dedicated team of professionals is trained to deliver top-notch building cleaning services, ensuring that your spaces are not only pristine but also conducive to a healthy and comfortable atmosphere.</li>
-              <li><i class="ri-check-double-line"></i> Our janitorial services are designed to cater to the unique needs of various facilities.</li>
-              <li><i class="ri-check-double-line"></i> From offices to commercial spaces, we take pride in our attention to detail, providing a range of services to keep your surroundings in impeccable condition.</li>
+              <li><i class="ri-check-double-line"></i> <?php echo $translations["aboutDesc2"]; ?></li>
+              <li><i class="ri-check-double-line"></i> <?php echo $translations["aboutDesc3"]; ?></li>
+              <li><i class="ri-check-double-line"></i> <?php echo $translations["aboutDesc4"]; ?></li>
+              <li><i class="ri-check-double-line"></i> <?php echo $translations["aboutDesc5"]; ?></li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
@@ -174,24 +174,20 @@ if ($currentLanguage === "en") {
 
             <br>
 
-            <p>
-              When it comes to gardening and agriculture, WHIRTH excels in creating vibrant and sustainable outdoor spaces. Whether you have a small garden or extensive grounds, our experienced team is equipped to handle all aspects of gardening, ensuring lush landscapes that enhance the aesthetic appeal of your property.
-            </p>
-            <p>
-              Transform your outdoor areas with our expert landscaping services. WHIRTH combines creativity and expertise to design and implement landscaping solutions that elevate the visual appeal of your property. From concept to execution, we work closely with you to bring your vision to life.
-            </p>
+            <p><?php echo $translations["aboutDesc6"]; ?></p>
+            <p><?php echo $translations["aboutDesc7"]; ?></p>
 
           </div>
 
           <div class="col-lg-12 pt-4 text-center" data-aos="fade-up" data-aos-delay="350">
             <p>
-              <span class="fw-bold">WHIRTH is more than just a service provider,</span><br />
-              We are your partner in preserving and enhancing the value of your property. <br />
-              Explore the difference that our comprehensive property care services can make.<br />
-              Choose WHIRTH for excellence, reliability, and a commitment to exceeding your expectations.
+              <span class="fw-bold"><?php echo $translations["aboutDesc8"]; ?></span><br />
+              <?php echo $translations["aboutDesc9"]; ?><br />
+              <?php echo $translations["aboutDesc10"]; ?><br />
+              <?php echo $translations["aboutDesc11"]; ?>
             </p>
 
-            <a href="#services" class="btn-learn-more scrollto">Learn More</a>
+            <a href="#services" class="btn-learn-more scrollto"><?php echo $translations["learnMore"]; ?></a>
           </div>
         </div>
 
@@ -203,42 +199,40 @@ if ($currentLanguage === "en") {
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>Explore our comprehensive services, from meticulous building cleaning and professional janitorial solutions to
-            <br> enchanting gardening, agriculture, and captivating landscaping.
-          </p>
+          <h2><?php echo $translations["Services"]; ?></h2>
+          <p><?php echo $translations["explore"]; ?></p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class='bx bx-building-house'></i></div>
-              <h4 class="title">Buildings Cleaning</h4>
-              <p class="description">Transform your spaces with our meticulous building cleaning services, ensuring pristine interiors that leave a lasting impression.</p>
+              <h4 class="title"><?php echo $translations["buildingsCleaning"]; ?></h4>
+              <p class="description"><?php echo $translations["buildingsCleaningShort"]; ?></p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class='bx bx-check-shield'></i></div>
-              <h4 class="title">Janitor service</h4>
-              <p class="description">Let our professional janitorial team handle the dirty work, maintaining order and cleanliness to create a welcoming and organized environment.</p>
+              <h4 class="title"><?php echo $translations["janitorService"]; ?></h4>
+              <p class="description"><?php echo $translations["janitorServiceShort"]; ?></p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class='bx bx-leaf'></i></div>
-              <h4 class="title">Gardening and agriculture</h4>
-              <p class="description">Elevate your outdoor spaces with our enchanting gardening and agriculture services, fostering vibrant landscapes and sustainable greenery.</p>
+              <h4 class="title"><?php echo $translations["gardeningAgriculture"]; ?></h4>
+              <p class="description"><?php echo $translations["gardeningAgricultureShort"]; ?></p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class='bx bxs-tree'></i></div>
-              <h4 class="title">Landscaping</h4>
-              <p class="description">Redefine your surroundings with our captivating landscaping solutions, turning ideas into visually stunning outdoor spaces that enhance your property's appeal.</p>
+              <h4 class="title"><?php echo $translations["landscaping"]; ?></h4>
+              <p class="description"><?php echo $translations["landscapingShort"]; ?></p>
             </div>
           </div>
 
@@ -255,16 +249,16 @@ if ($currentLanguage === "en") {
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card" style='background-image: url("assets/img/services/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Buildings Cleaning</a></h5>
-                <p class="card-text">Revitalize your space with our expert building cleaning services. Impeccable cleanliness meets attention to detail, ensuring every nook and cranny is spotless. Elevate your environment and make a lasting impression with our thorough and efficient cleaning solutions.</p>
+                <h5 class="card-title"><a href=""><?php echo $translations["buildingsCleaning"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["buildingsCleaningLong"]; ?></p>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="card" style='background-image: url("assets/img/services/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Janitor service</a></h5>
-                <p class="card-text">Experience cleanliness without the hassle with our top-notch janitorial services. Our dedicated team takes care of the dirty work, leaving your space organized and welcoming. From daily maintenance to special tasks, we're committed to creating a pristine atmosphere tailored to your needs.</p>
+                <h5 class="card-title"><a href=""><?php echo $translations["janitorService"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["janitorServiceLong"]; ?></p>
               </div>
             </div>
 
@@ -272,16 +266,16 @@ if ($currentLanguage === "en") {
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/services/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Gardening and agriculture</a></h5>
-                <p class="card-text">Transform your outdoor oasis with our enchanting gardening and agriculture services. Our green thumbs bring life to your landscape, from vibrant flowerbeds to thriving crops. Let us cultivate beauty and sustainability, turning your outdoor space into a flourishing haven.</p>
+                <h5 class="card-title"><a href=""><?php echo $translations["gardeningAgriculture"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["gardeningAgricultureLong"]; ?></p>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/services/more-services-4.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Landscaping</a></h5>
-                <p class="card-text">Redefine your surroundings with our captivating landscaping services. Our skilled team turns dreams into reality, creating visually stunning landscapes that leave a lasting impression. From artistic design to expert implementation, we're dedicated to enhancing the natural beauty of your property.</p>
+                <h5 class="card-title"><a href=""><?php echo $translations["landscaping"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["landscapingLong"]; ?></p>
               </div>
             </div>
           </div>
@@ -306,8 +300,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong></p>
-                    <p>Our success is measured by the satisfaction of our happy clients who experience the transformative results of our building cleaning, janitorial service, gardening, and landscaping expertise.</p>
+                    <p><strong><?php echo $translations["happyClients"]; ?></strong></p>
+                    <p><?php echo $translations["happyClientsDesc"]; ?></p>
                   </div>
                 </div>
 
@@ -315,8 +309,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-journal-richtext"></i>
                     <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Projects</strong></p>
-                    <p>Discover the diversity of our projects, showcasing our proficiency in building cleaning, janitorial services, gardening, and landscaping. Each project reflects our commitment to excellence and attention to detail.</p>
+                    <p><strong><?php echo $translations["projects"]; ?></strong></p>
+                    <p><?php echo $translations["projectsDesc"]; ?></p>
                   </div>
                 </div>
 
@@ -324,8 +318,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
                     <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Years of experience</strong></p>
-                    <p>Benefit from our extensive years of experience in the industry, where our seasoned professionals bring unparalleled expertise to every aspect of building cleaning, janitorial services, gardening, and landscaping.</p>
+                    <p><strong><?php echo $translations["YearsOfExperience"]; ?></strong></p>
+                    <p><?php echo $translations["YearsOfExperienceDesc"]; ?></p>
                   </div>
                 </div>
 
@@ -333,8 +327,8 @@ if ($currentLanguage === "en") {
                   <div class="count-box">
                     <i class="bi bi-award"></i>
                     <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Awards</strong></p>
-                    <p>Our dedication to quality has earned us recognition and prestigious awards in the field. Trust our award-winning team to deliver excellence in building cleaning, janitorial services, gardening, and landscaping.</p>
+                    <p><strong><?php echo $translations["awards"]; ?></strong></p>
+                    <p><?php echo $translations["awardsDesc"]; ?></p>
                   </div>
                 </div>
               </div>
@@ -932,7 +926,7 @@ if ($currentLanguage === "en") {
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
+          <h2><?php echo $translations["Contact Us"]; ?></h2>
         </div>
 
         <div class="row">
@@ -940,10 +934,10 @@ if ($currentLanguage === "en") {
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
               <h3>WIRTH</h3>
-              <p><strong>Ready to elevate your surroundings?</strong></p>
-              <p>Reach out to us for unparalleled services in building cleaning, janitorial expertise, enchanting gardening and agriculture solutions, and transformative landscaping.</p>
-              <p>Our dedicated team is here to answer your queries, discuss your unique needs, and start the journey towards a cleaner, greener, and more beautiful space.</p>
-              <p><i>Connect with us today and let's bring your vision to life!</i></p>
+              <p><strong><?php echo $translations["contactDesc1"]; ?></strong></p>
+              <p><?php echo $translations["contactDesc2"]; ?></p>
+              <p><?php echo $translations["contactDesc3"]; ?></p>
+              <p><i><?php echo $translations["contactDesc4"]; ?></i></p>
 
               <div class="social-links">
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -983,23 +977,23 @@ if ($currentLanguage === "en") {
           <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="<?php echo $translations["Your Name"]; ?>" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" id="email" placeholder="<?php echo $translations["Your Email"]; ?>" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="<?php echo $translations["Subject"]; ?>" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="<?php echo $translations["Message"]; ?>" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading"><?php echo $translations["Loading"]; ?></div>
+                <div class="error-message"><?php echo $translations["There was an error in sending your message"]; ?></div>
+                <div class="sent-message"><?php echo $translations["Your message has been sent. Thank you"]; ?></div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit"><?php echo $translations["Send Message"]; ?></button></div>
             </form>
           </div>
 
@@ -1016,18 +1010,18 @@ if ($currentLanguage === "en") {
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>WIRTH</strong>. All Rights Reserved
+            &copy; <?php echo $translations["Copyright 2023"]; ?> <strong>WIRTH</strong>. <?php echo $translations["All Rights Reserved"]; ?>
           </div>
           <!-- <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <?php echo $translations["Designed by"]; ?> <a href="https://www.linkedin.com/in/peterkostandy/">Peter B. Kostandy</a>
           </div> -->
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
-            <a href="#services" class="scrollto">Services</a>
-            <a href="#contact" class="scrollto">Contact</a>
+            <a href="#hero" class="scrollto"><?php echo $translations["Home"]; ?></a>
+            <a href="#about" class="scrollto"><?php echo $translations["About"]; ?></a>
+            <a href="#services" class="scrollto"><?php echo $translations["Services"]; ?></a>
+            <a href="#contact" class="scrollto"><?php echo $translations["Contact"]; ?></a>
           </nav>
         </div>
       </div>
