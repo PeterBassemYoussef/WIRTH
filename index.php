@@ -1036,6 +1036,13 @@ if ($currentLanguage === "en") {
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Cookie Consent Pop-up -->
+  <div id="cookie-consent" class="cookie-consent">
+    <p><?php echo $translations["Cookie"]; ?></p>
+    <button id="accept-cookies" class="accept-cookies"><?php echo $translations["Cookie Btn"]; ?></button>
+  </div>
+  <script src="assets/js/cookie.js"></script>
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
